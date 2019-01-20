@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 820314627660455799}
   - component: {fileID: 1195846906915586903}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: Zombie
   m_TagString: Killable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -197,6 +197,8 @@ MonoBehaviour:
   AttackSpeedMultiplier: 1.5
   _interactRange: 2
   _rayCastPoint: {fileID: 5603576708504837381}
+  RunSpeed: 2
+  WalkSpeed: 2
   Id: 0
 --- !u!114 &820314627660455799
 MonoBehaviour:
